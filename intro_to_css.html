@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <title>Introduction to Css</title>
+
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+        }
+        .div{
+            padding:10px;
+            
+        }
+        .name{
+            background-color: lightgoldenrodyellow;
+            padding:5px 30px 15px 20px;
+        }
+        .intro{
+            background-color: yellowgreen;
+            margin:5px;}
+            ul {
+                list-style-type:georgian; 
+                padding-left:30px ; 
+            }
+            
+    
+            li {
+               
+                margin-bottom: 15px;}
+            #footer{
+                background-color: black;
+                color:yellow;
+                padding:5px;
+                text-align: center;
+            }
+            
+           
+            
+            h1,h3,h5{
+                text-align: center;
+                margin-top:30px;
+               
+            }
+            a{
+                text-decoration: none;
+                color:yellow;
+
+            }
+            img{
+                padding-right:20px;
+            }
+            @media only screen and (max-width: 768px) {
+                .name, .intro {
+                    padding: 20px;
+                }
+            }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <h1 class="name">Ayodeji Owoseni</h1>
+        <div>
+            <h3>INTRODUCTION</h3>
+            <p class="intro">I am Ayodeji Owoseni, a tech enthusiast with a fervent passion for renewable energy.
+                 My vision is to harmonize the significance of artificial intelligence (AI) and renewable energy in Africa. 
+                 By bridging these two fields, 
+                I aim to drive sustainable innovation and create a positive impact on our continent. 
+                🌍🌱🔌
+            </p>
+        </div>
+        <div>
+            <h3>Skills</h3>
+            <ul>
+                <li>
+                    Programming Languages: Proficiency in languages such as Python, R, or MATLAB for data analysis, machine learning, and modeling.
+                </li>
+                <li>
+                    Machine Learning and AI: Understand concepts like neural networks, decision trees, regression, and clustering. Familiarity with libraries like TensorFlow, PyTorch, or scikit-learn.
+                </li>
+                <li>                     
+                        Data Science Tools: Experience with pandas, NumPy, and Jupyter notebooks for data manipulation and exploration.
+                </li>
+                <li>                        
+                    Energy Modeling: Knowledge of tools like EnergyPlus, HOMER, or SAM for simulating energy systems.
+                </li>
+                <li>                        
+                    Database Management: Ability to work with databases (e.g., SQL, NoSQL).
+                </li>
+                <li>                        
+                    Signal Processing: Understanding of time-series data and signal processing techniques.
+                </li>
+            </ul>
+        </div>
+        
+        <div id="footer">
+                <h5>CONTACT INFORMATION</h5>
+                <div class="form">
+                    <p>Email: <a href="#">Contactus@gmail.com</a></p>
+                    <a href="#"><img src="" alt="facebook"></a>
+                    <a href="#"><img src="" alt="instagram"></a>
+                    <a href="#"><img src="" alt="twitter"></a>
+
+                </div>
+        </div>
+
+    </div> 
+       
+</body>
+</html>
